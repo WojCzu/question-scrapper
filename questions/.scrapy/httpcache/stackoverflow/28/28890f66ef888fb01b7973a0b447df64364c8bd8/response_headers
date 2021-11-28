@@ -1,0 +1,19 @@
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=15552000
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: usr=p=%5b160%7c%3bNewest%3b%5d; expires=Sat, 28 May 2022 19:59:45 GMT; path=/; secure; samesite=none; httponly
+Set-Cookie: prov=834d031e-749f-ff64-48cd-9fb15384a657; domain=.stackoverflow.com; expires=Fri, 01-Jan-2055 00:00:00 GMT; path=/; HttpOnly
+X-Request-Guid: 276210a4-8005-439a-ab9c-35404ba1af98
+Feature-Policy: microphone 'none'; speaker 'none'
+Content-Security-Policy: upgrade-insecure-requests; frame-ancestors 'self' https://stackexchange.com
+Accept-Ranges: bytes
+Date: Sun, 28 Nov 2021 19:59:45 GMT
+Via: 1.1 varnish
+X-Served-By: cache-vie6331-VIE
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1638129585.494291,VS0,VE113
+Vary: Accept-Encoding,Fastly-SSL
+X-Dns-Prefetch-Control: off

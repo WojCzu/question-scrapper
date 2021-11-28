@@ -1,0 +1,16 @@
+Cache-Control: private
+Location: /questions/70146926/can-i-cancel-installation-with-inno-setup-after-all-files-are-installed
+Strict-Transport-Security: max-age=15552000
+X-Frame-Options: SAMEORIGIN
+X-Request-Guid: e5117699-7727-4f4f-aab1-40452ff0353b
+Feature-Policy: microphone 'none'; speaker 'none'
+Content-Security-Policy: upgrade-insecure-requests; frame-ancestors 'self' https://stackexchange.com
+Accept-Ranges: bytes
+Date: Sun, 28 Nov 2021 20:25:57 GMT
+Via: 1.1 varnish
+X-Served-By: cache-vie6327-VIE
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1638131158.831358,VS0,VE103
+Vary: Fastly-SSL
+X-Dns-Prefetch-Control: off

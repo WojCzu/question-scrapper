@@ -1,0 +1,17 @@
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=15552000
+X-Frame-Options: SAMEORIGIN
+X-Request-Guid: a3442c12-13f8-4d4b-9b29-973b020a132e
+Feature-Policy: microphone 'none'; speaker 'none'
+Content-Security-Policy: upgrade-insecure-requests; frame-ancestors 'self' https://stackexchange.com
+Accept-Ranges: bytes
+Date: Sun, 28 Nov 2021 20:26:53 GMT
+Via: 1.1 varnish
+X-Served-By: cache-vie6324-VIE
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1638131213.312212,VS0,VE113
+Vary: Accept-Encoding,Fastly-SSL
+X-Dns-Prefetch-Control: off

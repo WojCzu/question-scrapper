@@ -23,10 +23,13 @@ class StackoverflowSpider(scrapy.Spider):
     start_urls = ['https://stackoverflow.com/questions?tab=Newest']
 
     def parse(self, response):
-        links = response.css("#questions a.question-hyperlink::attr(href)").extract()
+        links = response.css('#questions a.question-hyperlink::attr(href)').extract()
         for link in links:
             yield scrapy.Request(f'https://stackoverflow.com{link}', self.parse_question)
         # yield scrapy.Request(f'https://stackoverflow.com{links[0]}', self.parse_question)
+        next_page = response.css('.s-pagination a[rel="next"]::attr(href)').get()
+        if next_page:
+            yield scrapy.Request(f'https://stackoverflow.com{next_page}', self.parse)
 
     
     def parse_question(self, response):
@@ -37,4 +40,4 @@ class StackoverflowSpider(scrapy.Spider):
         question.add_css('tags', '.question .post-taglist a::text')
         question.add_css('votes', '.question .js-vote-count::text')
         question.add_css('content', '.question .js-post-body *::text')
-        return question.load_item()
+        yield question.load_item()

@@ -63,7 +63,8 @@ DOWNLOAD_DELAY = 3
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'questions.pipelines.QuestionsPipeline': 300,
+   'questions.pipelines.ContentLengthPipeline': 300,
+   'questions.pipelines.DuplicatesPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
